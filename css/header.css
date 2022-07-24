@@ -1,0 +1,143 @@
+/* HEADER SECTION */
+
+.header {
+  /* background-image: url(../img/Header/Background.jpg); */
+  background-image: linear-gradient(rgb(34, 34, 34, 0.7), rgb(34, 34, 34, 0.7)),
+    url(../img/Header/Background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 9.6rem;
+  position: relative;
+}
+
+/* NAVBAR SECTION */
+
+.logo {
+  width: 19rem;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    rgb(255, 255, 255, 0.9),
+    rgb(255, 255, 255, 0.9)
+  );
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 2px solid #d0131c;
+  padding-bottom: 1rem;
+  /* border-top: 2px solid #d0131c; */
+}
+
+.nav-item {
+  margin-left: 2px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #d0131c;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem 1.2rem !important;
+  border-radius: 2px;
+  transition: all 400ms ease-in-out;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  background-color: #d0131c;
+  color: #fff;
+}
+
+.active-link:link {
+  background-color: #d0131c;
+  color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.active-link:active,
+.active-link:hover {
+  /* background-color: #fff; */
+  background-image: linear-gradient(
+    rgb(255, 255, 255, 0.9),
+    rgb(255, 255, 255, 0.9)
+  );
+  color: #d0131c;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 400ms ease-in-out;
+}
+
+/* HOME SECTION */
+.empty-div {
+  height: 7.2rem;
+}
+.home-logo {
+  margin-bottom: 6.4rem;
+}
+
+.home-tagline-box {
+  margin-bottom: 1.6rem;
+}
+
+.home-tagline-text {
+  font-size: 2.4rem;
+  color: #eee;
+}
+
+.home-heading-box {
+  background-color: #fff;
+  margin-bottom: 0rem;
+}
+
+.home-text-box {
+  margin-top: 8.4rem;
+}
+
+.home-heading-box {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-heading-text {
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  letter-spacing: -0.8px;
+  color: #d0131c;
+  /* font-size: 4.1rem; */
+  /* 4.1 for responsiveness */
+}
+
+.backed-by-heading {
+  color: #ddd;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.backed-by-box {
+  margin-bottom: 2rem;
+  margin-top: 1.6rem;
+}
+
+.backed-by-text {
+  color: #e6e6e6;
+  font-size: 4.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.Ondeck-color {
+}

@@ -1,0 +1,139 @@
+@media all and (max-width: 570px) {
+  .home-heading-text {
+    font-size: 4.8rem;
+  }
+  .testimonial-tagline {
+    font-size: 1.8rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .box-bottom-right-small,
+  .box-top-right {
+    display: none;
+  }
+
+  .who-are-we-icon {
+    height: 6rem;
+    width: 6rem;
+  }
+  .who-are-we-text-heading {
+    font-size: 1.8rem;
+  }
+  .who-are-we-text-content {
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .home-heading-text {
+    font-size: 4rem;
+  }
+  .testimonials-heading-text {
+    font-size: 4.2rem;
+  }
+  .testimonial-tagline {
+    font-size: 1.6rem;
+  }
+
+  .who-are-we-icon {
+    height: 5rem;
+    width: 5rem;
+  }
+  .who-are-we-text-heading {
+    font-size: 1.4rem;
+    /* text-align: center; */
+  }
+  .who-are-we-text-content {
+    font-size: 1.2rem;
+    /* text-align: center; */
+  }
+  .container-who-are-we {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .khorbe-special {
+    font-size: 1.6rem;
+  }
+  .home-heading-box {
+    width: 80%;
+  }
+  .truck-bg-image {
+    /* display: none; */
+    opacity: 0.2;
+  }
+  .warehouse-bg-image {
+    /* display: none; */
+    opacity: 0.3;
+  }
+
+  .who-are-we-2-col-grid-box {
+    justify-content: center;
+  }
+
+  .who-are-we-card-box {
+    width: 100%;
+  }
+
+  .container-who-are-we {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .visual-data-box {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+
+  .box-top-left,
+  .box-bottom-left {
+    display: none;
+  }
+
+  .box-top-left-small,
+  .box-middle-left-small,
+  .box-middle-right-small,
+  .box-right-left-small,
+  .box-bottom-right-smallest {
+    display: none;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1.7rem;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .khorbe-special {
+    font-size: 1.8rem;
+  }
+  .home-heading-box {
+    width: 100%;
+  }
+  .testimonial-row {
+    justify-content: center;
+    justify-content: center;
+  }
+
+  .testimonials-heading-box {
+    margin-bottom: 4rem;
+  }
+
+  .container-who-are-we {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

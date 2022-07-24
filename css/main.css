@@ -1,0 +1,554 @@
+/* WHO ARE WE SECTION */
+
+.section-who-are-we {
+  margin-top: 9.7rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-who-are-we .box-middle-left-small {
+  bottom: 35rem;
+}
+
+.warehouse-bg-image {
+  position: absolute;
+  z-index: -100;
+  top: 20%;
+  opacity: 0.8;
+}
+
+.truck-bg-image {
+  position: absolute;
+  z-index: -100;
+  bottom: 15%;
+  right: 0;
+  height: 17%;
+  opacity: 0.5;
+}
+
+.who-are-we-heading {
+  margin-bottom: 1.8rem;
+  /* padding-top: 2rem; */
+}
+
+.who-are-we-subheading {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 400;
+  margin: auto;
+  margin-top: -2rem;
+  margin-bottom: 9.6rem;
+  line-height: 1.3;
+  width: 80%;
+}
+
+.who-are-we-2-col-grid-box {
+  /* margin-bottom: 3.2rem; */
+  justify-content: end;
+  /* column-gap: 3rem; */
+}
+
+.who-are-we-card-box {
+  width: 90%;
+  transition: all 400ms cubic-bezier(1, 1, 1, 1);
+}
+
+.who-are-we-card-box:hover {
+  background-color: #d0131c;
+  transform: scale(1.04);
+}
+
+.who-are-we-box-content {
+  margin-bottom: 3.2rem;
+}
+
+.who-are-we-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.who-are-we-card-box:hover .who-are-we-icon {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(272deg)
+    brightness(103%) contrast(101%);
+}
+
+.who-are-we-icon {
+  height: 6.4rem;
+  width: 6.4rem;
+  filter: invert(15%) sepia(74%) saturate(4387%) hue-rotate(348deg)
+    brightness(95%) contrast(101%);
+}
+
+.who-are-we-text-box {
+  padding: 1.2rem;
+}
+
+.who-are-we-text-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  /* line-height: 1.6; */
+  letter-spacing: -0.5px;
+}
+
+.who-are-we-card-box:hover .who-are-we-text-heading {
+  color: #fff;
+}
+
+.who-are-we-text-content {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.who-are-we-card-box:hover .who-are-we-text-content {
+  color: #ccc;
+}
+
+/* OUR VISION SECTION */
+
+.section-our-vision {
+  margin-top: 8rem;
+  padding-top: 1.8rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-vision-heading {
+  margin-bottom: 1.8rem;
+}
+
+.our-vision-card-box {
+  margin-bottom: 5rem;
+}
+
+.our-vision-custom-card {
+  margin-bottom: 2rem;
+  transition: all 400ms ease-in-out;
+  /* border-bottom: 1px solid #f6d0d2; */
+  transform: scale(1.05);
+}
+
+.our-vision-custom-card:hover {
+  transform: scale(1.1);
+}
+
+.our-vision-custom-card-img {
+  height: 300px;
+  width: 300px;
+}
+
+.our-vision-custom-card-body {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  /* box-shadow: inset 0px 1px 2px #d0131c; */
+  border: 2px solid #d0131c;
+  /* padding-top: 3.5rem; */
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-body {
+  /* box-shadow: inset 0px 1px 2px transparent; */
+  border: 2px solid transparent;
+  background-color: #bb1119;
+}
+
+.our-vision-custom-card-title {
+  font-size: 3.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  /* color: #212121; */
+  color: #bb1119;
+  /* background-color: #d94249; */
+  text-align: center;
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-title {
+  color: #fff;
+}
+
+.our-vision-custom-card-text {
+  color: #333;
+  /* padding: 2rem; */
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-text {
+  color: #eee;
+}
+
+/* OUR CLIENTS */
+
+.section-our-clients {
+  margin-top: 9.6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-client-heading {
+  margin-bottom: 1.8rem;
+}
+
+.our-client-row {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.client-box {
+  margin-bottom: 2rem;
+}
+
+.our-clients-card {
+  box-shadow: 0px 0px 12px 2px #aaa;
+  overflow: hidden;
+}
+
+.our-clients-img {
+  padding: 2rem;
+  height: 171px;
+  transition: all 400ms;
+}
+
+.our-clients-img:hover {
+  transform: scale(1.05);
+}
+
+.our-client-many-more-box {
+  height: 171px;
+  box-shadow: none;
+}
+.our-client-many-more-text {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #de5a60;
+}
+
+/* VISUAL DATA SECTION */
+
+.section-visual-data {
+  margin-bottom: 6.4rem;
+  margin-top: 8.4rem;
+}
+
+.visual-data-heading {
+  margin-bottom: 1.8rem;
+}
+
+.visual-data-container-box {
+  background-color: #680a0e;
+}
+
+.visual-data-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f6d0d2;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.visual-data-fa-icon {
+  color: #f6d0d2;
+  font-size: 14rem;
+  margin-bottom: 4rem;
+}
+
+.visual-data-fa-icon:hover {
+  color: #f6d0d2;
+}
+
+.visual-data-count {
+  font-size: 8.4rem;
+  color: #fae7e8;
+}
+
+.visula-data-count-heading {
+  margin-top: 1.6rem;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+/* OUR LEADERSHIP SECTION  */
+
+.section-our-leadership {
+  margin-top: 8.4rem;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 1.2rem;
+}
+
+.our-leadership-heading {
+  margin-bottom: 1.8rem;
+}
+
+.our-leadership-custom-card {
+  padding: 2rem;
+  margin-top: 1rem;
+  transition: all 400ms ease-in-out;
+}
+
+.our-leadership-custom-card:hover {
+  transform: translateY(-5%);
+  box-shadow: 0px 1px 2px #e8898e;
+}
+
+.our-leadership-custom-card-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.our-leadership-custom-card-body {
+  margin-top: 3rem;
+}
+
+.our-leadership-custom-card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-our-leadership-custom-card-subtitle {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 1.8rem;
+}
+
+.card-our-leadership-custom-card-job-profile {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e8898e;
+  transition: all 400ms ease-in-out;
+}
+
+.our-leadership-custom-card:hover .card-our-leadership-custom-card-job-profile {
+  border-bottom: 1px solid transparent;
+}
+
+.our-leader-learn-more-box {
+  /* display: none; */
+  visibility: collapse;
+  margin-top: 3.2rem;
+  gap: 2rem;
+  background-color: #a60f16;
+  padding: 2rem;
+  transition: all 400ms ease-in-out;
+}
+
+.our-leadership-custom-card:hover .our-leader-learn-more-box {
+  /* display: flex; */
+  visibility: visible;
+}
+
+.our-leadership-fa-icon {
+  color: #fff;
+  font-size: 3.8rem;
+}
+.our-leadership-fa-icon:hover {
+  color: #333;
+  font-size: 3.8rem;
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+  margin-bottom: 9.6rem;
+  margin-top: 9.6rem;
+}
+
+.testimonials-heading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  background-color: #d0131c;
+}
+
+.testimonials-heading {
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+  color: #fff;
+}
+
+.testimonial-tagline {
+  font-size: 2.4rem;
+  color: #aaa;
+}
+
+.testimonial-horizontal-line {
+  background-color: #fff;
+  margin: 0;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-img {
+  width: 20rem;
+  height: 20rem;
+  border: 4px solid #d0131c;
+  padding: 2.5px;
+  border-radius: 50%;
+}
+
+.testimonial-box {
+  display: flex;
+  min-width: 100%;
+  transition: all 1s;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-content-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.testimonial-content {
+  font-size: 1.8rem;
+  color: #212121;
+  line-height: 1.4;
+  padding-top: 20px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212121' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212121' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.testimonial-by-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-by-name {
+  color: #d0131c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  text-align: center;
+}
+.testimonial-by-designation {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+/* CONTACT US SECTION */
+.contact-us {
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.contact-us-heading {
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.7px;
+  text-align: center;
+}
+
+.contact-us-intro {
+  font-size: 1.8rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.2;
+  color: #666;
+  margin-bottom: 4.8rem;
+}
+
+.contact-us-img {
+  width: 110%;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-us-card {
+  background-color: #333;
+  /* background-color: #e60000; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.contact-us-card-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* color: #aaa; */
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin-bottom: 2.4rem;
+}
+
+.contact-us-card-content {
+  /* color: #eee; */
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  line-height: 1.8;
+}
+
+.contact-us-social-handles {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact-us-icon-img {
+  height: 7rem;
+  margin-bottom: 2.4rem;
+  filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%);
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
+}
+
+.contact-us-icon-img-flag {
+  height: 7rem;
+  margin-bottom: 2.4rem;
+  /* filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%); */
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
+}
+
+.fa-icon-contact:hover {
+  color: #d0131c;
+}
+
+.contact-us-email-link:link,
+.contact-us-email-link:visited {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact-us-email-link:hover,
+.contact-us-email-link:active {
+  color: #de5a60;
+  /* color: #212121; */
+}
