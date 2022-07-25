@@ -120,8 +120,10 @@ body {
 }
 
 /* RED BOXES */
+
+/* OUR CLIENTS SECTION */
 .box-middle-left-small {
-  z-index: -10;
+  z-index: -100;
   width: 25rem;
   height: 25rem;
   background-color: #111;
@@ -132,7 +134,7 @@ body {
 }
 
 .box-middle-right-small {
-  z-index: -10;
+  z-index: -100;
   width: 25rem;
   height: 25rem;
   background-color: #111;
@@ -140,12 +142,12 @@ body {
 
   right: 0;
 
-  transform: rotate(45deg) translateX(105%) translateY(34%);
+  transform: rotate(45deg) translateX(105%) translateY(33%);
   opacity: 0.9;
 }
 
 .box-bottom-left {
-  z-index: -10;
+  z-index: -100;
   width: 50rem;
   height: 50rem;
   background-color: #111;
@@ -156,7 +158,7 @@ body {
 }
 
 .box-top-left-small {
-  z-index: -10;
+  z-index: -100;
   width: 48rem;
   height: 48rem;
   background-color: #111;
@@ -167,7 +169,7 @@ body {
 }
 
 .box-bottom-right-smallest {
-  z-index: -10;
+  z-index: -100;
   width: 48rem;
   height: 48rem;
   background-color: #111;
@@ -181,7 +183,7 @@ body {
 .box-top-right {
   right: 0;
   top: 5rem;
-  z-index: -10;
+  z-index: -100;
   width: 50rem;
   height: 50rem;
   background-color: #111;

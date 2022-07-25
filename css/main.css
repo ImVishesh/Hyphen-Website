@@ -87,6 +87,7 @@
 .who-are-we-text-heading {
   font-size: 2rem;
   text-transform: uppercase;
+  /* line-height: 1.6; */
   letter-spacing: -0.5px;
 }
 
@@ -133,8 +134,21 @@
 }
 
 .our-vision-custom-card-img {
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 275px;
+  filter: invert(13%) sepia(90%) saturate(5645%) hue-rotate(352deg)
+    brightness(84%) contrast(94%);
+  /* filter: invert(31%) sepia(100%) saturate(1015%) hue-rotate(326deg)
+    brightness(92%) contrast(91%); */
+  /* filter: invert(59%) sepia(18%) saturate(1199%) hue-rotate(308deg)
+    brightness(108%) contrast(82%); */
+  /* filter: invert(9%) sepia(37%) saturate(7216%) hue-rotate(346deg)
+    brightness(73%) contrast(102%); */
+  /* filter: invert(10%) sepia(49%) saturate(5587%) hue-rotate(346deg)
+    brightness(82%) contrast(102%); */
+  /* filter: invert(20%) sepia(41%) saturate(4627%) hue-rotate(341deg)
+    brightness(69%) contrast(110%); */
+  opacity: 0.8;
 }
 
 .our-vision-custom-card-body {

@@ -52,9 +52,10 @@
   color: #fff;
 }
 
-.active-link:link {
+.active-link:link,
+.active-link:visited {
   background-color: #d0131c;
-  color: #fff;
+  color: #fff !important;
   transition: all 400ms ease-in-out;
 }
 
@@ -92,10 +93,12 @@
 .home-tagline-text {
   font-size: 2.4rem;
   color: #eee;
+  /* color: #150203; */
 }
 
 .home-heading-box {
-  background-color: #fff;
+  /* background-color: #fff; */
+  /* opacity: 0.8; */
   margin-bottom: 0rem;
 }
 
